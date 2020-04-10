@@ -1,0 +1,98 @@
+.header{
+	width:100%;
+	position: relative;
+}
+.header p{
+	color:rgb(126, 92, 37);
+	font-size:40px;
+    text-align: center;
+}
+
+.banner{
+    display: block;
+	width:100%;
+	height:450px;
+    background-color: blanchedalmond;
+}
+.banner img{
+    width: 30%;
+    height: 500px;
+    animation: spin 60s linear infinite;
+    display: block;
+    margin: 0 auto;
+}
+@keyframes spin {
+	50% {
+		transform: rotateY(360deg);
+	}
+}
+.filter{
+    text-align: center; 
+}
+.filter select{
+	width:452px;
+	height:48px;
+	font-size:18px;
+	background: rgb(241, 189, 43,0.2);
+	border: 3px solid rgb(180, 178, 178);
+	border-radius: 20px;
+}
+.footer{
+    width: 100%;
+}
+/*--------------------------------------------------------*/
+
+.place-name{
+	font-size:36px;
+	font-family:SFNSDisplay;
+	text-align: center;
+    margin:150px 0 24px 0;
+    width: 100%;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.place-detail{
+text-align: center;
+}
+.place-detail li{
+	position: relative;
+	display: inline-block;
+	height: 150px;
+	width:50%;
+	background-color: blanchedalmond;
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,0.20);
+    margin:18px 8px;
+    border: 1px solid rgba(0,0,0,0.5);
+    transition: all 0.5s linear;
+}
+.place-detail li:hover {
+border-radius: 40px;
+transition: all 0.5s linear;    
+}
+
+.bottom .icon{
+	text-align:left;
+	margin:10px 0 0 23px;
+}
+.bottom img{
+	margin-right:9px;
+}
+
+
+/*----------------------------------------------------------------*/
+.footer img{
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    height: 150px;
+    padding-top: 10px;
+}
+.footer p{
+    color: #000000;
+    background-color: blanchedalmond;
+    text-align: center;
+    font-size: 18px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
