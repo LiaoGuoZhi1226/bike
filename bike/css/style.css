@@ -28,14 +28,17 @@
 }
 .filter{
     text-align: center; 
+    width: 100%;
+    margin: 0 auto;
 }
 .filter select{
-	width:452px;
+	width:40%;
 	height:48px;
 	font-size:18px;
-	background: rgb(241, 189, 43,0.2);
+	background: rgb(241, 189, 43,0.4);
 	border: 3px solid rgb(180, 178, 178);
-	border-radius: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
 }
 .footer{
     width: 100%;
@@ -46,40 +49,35 @@
 	font-size:36px;
 	font-family:SFNSDisplay;
 	text-align: center;
-    margin:150px 0 24px 0;
+    margin:130px 0 24px 0;
     width: 100%;
     letter-spacing: 5px;
     font-weight: bold;
 }
 .place-detail{
-text-align: center;
+    text-align: center;
+    margin: 0 auto;
 }
 .place-detail li{
 	position: relative;
 	display: inline-block;
 	height: 150px;
-	width:50%;
-	background-color: blanchedalmond;
+    width:80%;
+    margin: 10px 0;
+    background-color: blanchedalmond;
 	box-shadow: 0 5px 5px 0 rgba(0,0,0,0.20);
-    margin:18px 8px;
     border: 1px solid rgba(0,0,0,0.5);
     transition: all 0.5s linear;
+    opacity: 0.9;
 }
 .place-detail li:hover {
 border-radius: 40px;
 transition: all 0.5s linear;    
 }
-
 .bottom .icon{
 	text-align:left;
 	margin:10px 0 0 23px;
 }
-.bottom img{
-	margin-right:9px;
-}
-
-
-/*----------------------------------------------------------------*/
 .footer img{
     margin: 0 auto;
     display: block;
@@ -95,4 +93,45 @@ transition: all 0.5s linear;
     height: 50px;
     margin: 0 auto;
     padding-top: 20px;
+}
+
+@media(max-width: 768px){
+    /* 智慧型手機及垂直縱向的平板電腦所使用的樣式 */
+    .header p{
+        font-size: 20px;
+    }
+    .banner{
+        height: 350px;
+    }
+    .banner img{
+        height: 250px;
+        padding-top: 70px;
+    }
+    
+    .filter{
+        margin-top: 50px;
+    }
+    .filter select{
+        width: 40%;
+    }
+    .footer img{
+        padding: 0px;
+    }
+    .place-name{
+        font-size: 25px;
+        margin: 80px 0 0 0px;
+        text-align: center;
+    }
+    .bottom .icon{
+        font-size: 15px;
+    }
+    .footer img{
+        height: 130px;
+    }
+    .footer p{
+        font-size: 15px;
+        height: 30px;
+    }
+    
+    
 }

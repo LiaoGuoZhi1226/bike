@@ -3,7 +3,7 @@ let title = document.querySelector('.place-name');
 let detail = document.querySelector('.place-detail');
 let str= ``;
 //select data
-const placeData=["中區","東區","北區","西區","南區",,"北屯區","西屯區","南屯區","太平區","西屯區","南屯區","太平區","大甲區","豐原區","大里區","霧峰區","后里區","外埔區","沙鹿區","梧棲區","大肚區","和平區","清水區","大雅區","烏日區"];
+const placeData=["中區","東區","北區","西區","南區","北屯區","西屯區","南屯區","太平區","西屯區","南屯區","太平區","大甲區","豐原區","大里區","霧峰區","后里區","外埔區","沙鹿區","梧棲區","大肚區","和平區","清水區","大雅區","烏日區"];
 let placeStr=``;
 const placeLen = placeData.length;
 const firstSelected= `<option disabled selected>- - 請選擇行政區 - -</option>`;
